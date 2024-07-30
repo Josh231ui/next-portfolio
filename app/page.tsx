@@ -6,11 +6,16 @@ export default function Home() {
     
     <section className="bg-white ">
     <div className="max-w-6xl px-6 py-10 mx-auto">
-        <p className="text-xl font-medium text-red-500 ">Developer Portfolio</p>
+      <div className="flex justify-between">
+        <div>
+          <p className="text-xl font-medium text-red-500 ">Developer Portfolio</p>
 
-        <h1 className="mt-2 text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">
-            Joshu
-        </h1>
+          <h1 className="mt-2 text-2xl font-semibold text-gray-800 capitalize lg:text-3xl ">
+              Joshu
+          </h1>
+        </div>
+       <img className="h-24 w-24 rounded-full" src="https://th.bing.com/th/id/OIG1.LQMBfWNnIMj6w99G5CtZ?pid=ImgGn" alt="" />
+      </div>
 
         <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
             <div className="absolute w-full bg-red-600 -z-10 md:h-96 rounded-2xl"></div>
@@ -34,3 +39,4 @@ export default function Home() {
     </main>
   );
 }
+
