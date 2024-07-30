@@ -200,7 +200,7 @@ export default function Home() {
 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                 <p className="mt-2 text-gray-500 "></p>
-                <p className="mt-2 text-red-500 ">Enter a number</p>
+                <p className="mt-2 text-red-500 ">09603159523</p>
             </div>
         </div>
     </div>
